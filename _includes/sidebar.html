@@ -1,0 +1,28 @@
+{% if page.author %} {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %} {% endif %}
+
+<div class="cover-card table-cell table-middle">
+  {% if author.avatar %}
+  <a href="{{ site.url }}/">
+    <img src="{{ site.url }}/img/{{ author.avatar }}" alt="" class="avatar">
+  </a>
+  {% endif %}
+  <a href="{{ site.url }}/" class="author_name">{{ author.name }}</a>
+  <span class="author_job">{{ author.job }}</span>
+  <span class="author_bio mbm">{{ author.bio }}</span>
+  <nav class="nav">
+    <ul class="nav-list">
+      <li class="nav-item">
+        <a href="{{ site.url }}/">home</a>
+      </li>
+      {% for page in site.pages %} {% if page.title %}
+      <li class="nav-item">
+        <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
+      </li>
+      {% endif %} {% endfor %}
+    </ul>
+  </nav>
+  {% include social-links.html %}
+  <br/>
+  <a href="{{ site.url }}/"><img class="counter" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fkimjinhyuk%2Fkimjinhyuk.github.io%2Fhit-counter&count_bg=%2390AB78&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
+</div>
+

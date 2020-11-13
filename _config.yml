@@ -1,0 +1,72 @@
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: Jin's Blog
+email: kimjinhyuk2@gmail.com
+description: A simple and awesome personal blog
+url:
+keywords: ["blog", "jin"]
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          Asia/Seoul
+markdown:          kramdown
+highlighter:       rouge
+lsi: false
+excerpt_separator: "\n\n"
+permalink:         /articles/:year-:month/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: Jin
+  avatar: leonids-logo.png
+  job: "Machine Learning"
+  bio: "A simple and personal blog by Jin."
+  email: kimjinhyuk2@gmail.com
+  disqus-shortname: jins-blog-3
+  twitter: kimjinhyuk2
+  facebook: #username
+  google: #
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: kimjinhyuk
+  gitlab: #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #username
+  skype: #username
+  xing: #username
+  instagram: imaginistanbul
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: kimjinhyuk2
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  500px: #username
+  codepen: #username
+  reddit: #username
+  telegram: #username
