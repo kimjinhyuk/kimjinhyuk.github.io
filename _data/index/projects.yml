@@ -1,8 +1,22 @@
 - name: 광주 인공지능사관학교 1기
-  descr: "Bacon ipsum dolor sit amet doner meatball jowl short ribs, chicken prosciutto salami frankfurter. Pig drumstick turducken short ribs, brisket meatloaf ham hock shankle andouille corned beef strip steak. Venison ham bresaola strip steak. Pork belly ribeye prosciutto t-bone."
+  descr: "인공지능 개론(머신러닝, 딥러닝), 인공지능을 위한 기초 파이썬, 인공지능을 위한 알고리즘, 머신러닝을 위한 파이썬, 파이썬 빅데이터 분석, 머신러닝, 딥러닝, 기업 협력 프로젝트, 자율형 프로젝트 목표 - 실전형 인공지능 인력 양성, 내용 - 공통, 기업 협력, 자율형 프로젝트의 인공지능 프로젝트 수행, 4대 분야별 기술 및 기초 산업 지식 학습 → 웹 어플리케이션 활용 프로젝트 → Track 선택 후 프로젝트 참여 "
   image: pong.png
   github: https://github.com/kimjinhyuk/gj-aischool
+
 - name: 안드로이드 기반의 모바일 오피스 구현 과정
-  descr: "Bacon ipsum dolor sit amet doner meatball jowl short ribs, chicken prosciutto salami frankfurter. Pig drumstick turducken short ribs, brisket meatloaf ham hock shankle andouille corned beef strip steak. Venison ham bresaola strip steak. Pork belly ribeye prosciutto t-bone."
+  descr: "Java SE
+Java SE Advanced
+Java Network Programming
+Database Modeling, SQL과 JDBC
+HTML/CSS/JavaScript
+Java Web Programming(Servlet &JSP)
+Model1, Model2 Architecture(MVC Pattern)
+Web2.0 기반 HTML5, jQuery와Ajax
+java OpenSource Framework Spring,
+iBatis
+Android Programming
+Hybrid App Programming
+Final Project
+MES Solution Project"
   image: pong.png
   github: https://github.com/kimjinhyuk
