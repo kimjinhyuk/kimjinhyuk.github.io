@@ -18,7 +18,7 @@ tag: [personal, Anaconda, ML, environment]
 
 1. 사이트에 접속하여 아나콘다 설치 프로그램 다운
 
-[(https://www.anaconda.com/products/individual)] 
+[https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual)
 
 인스톨러에서 맞는 OS별로 설치를 진행 하면 된다.
 
@@ -73,7 +73,7 @@ conda install jupyter notebook
 conda install tensorflow
 ~~~
 
-> [(https://www.tensorflow.org/install/pip?hl=ko&lang=python3)] 텐서플로우 공식 설치 문서
+> [텐서플로우 공식 설치 문서](https://www.tensorflow.org/install/pip?hl=ko&lang=python3) 
 
 ~~~ Python
 #아래 소스를 실행시킨 후 출력이 정상적으로 되는지 확인
