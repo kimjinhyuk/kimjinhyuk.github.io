@@ -42,7 +42,7 @@ Bert는 최근 자연어 처리 학습 성과와 언어 모델 Google의 Transfo
 - BERT는 트랜스포머의 양방향 엔코더 표현을 의미한다. 여기 있는 각각의 단어는 그것에 의미를 가지고 있고 우리는 그것을 하나씩 마주칠 것이다. 무엇보다 **BERT는 Transformer 아키텍처를 기반으로 한다**는 것이 가장 중요하다.
 - BERT는 위키피디아 전체를 포함한 라벨이 없는 큰 말뭉치(2억 5천 5백만 단어!) 와 책 corpus(8억 단어) 사전 훈련된다. 이 사전 훈련 단계는 BERT의 성공에 정말 중요하다. 왜냐하면 우리가 큰 텍스트 corpus 모델을 훈련시킬 때, 우리의 모델은 언어가 어떻게 작동 하는지에 대한 더 깊고 친밀한 이해를 얻기 시작하기 때문이다.이 지식은 거의 모든 NLP 작업에 유용한 스위스 군용 칼 이라고 할 수 있다.
 
-![](https://user-images.githubusercontent.com/6022269/112178059-d38b9a00-8c3c-11eb-9ffa-a8dfa080dcf7.png)
+![](https://user-images.githubusercontent.com/6022269/112178059-d38b9a00-8c3c-11eb-9ffa-a8dfa080dcf7.png){: width="70%" height="70%"}
 
 - 이러한 양방향적 이해는 NLP 모델을 다음 단계로 끌어올리는데 매우 중요하다. 그것이 정말로 무엇을 의미하는지 이해할 수 있는 예를 보자. 같은 단어를 가진 두 문장이 있을 수 있지만 아래에서 볼 수 있듯이 앞뒤에 오는 것에 따라 그 의미는 완전히 다를 수 있다.
 
@@ -76,7 +76,7 @@ BERT를 좀 자세히 살펴보고 그것이 왜 언어를 모델링하는 데 �
 
     BERT(transformer)의 구성 요소에 대한 심층적인 이해를 위해서는 아래 그림 에서의 transformer 를 확인 해야 한다.
 
-![](https://user-images.githubusercontent.com/6022269/112178047-d1294000-8c3c-11eb-8150-4b4ef5907d5f.png)
+![](https://user-images.githubusercontent.com/6022269/112178047-d1294000-8c3c-11eb-8150-4b4ef5907d5f.png){: width="50%" height="50%"}
 
 1. Preprocessing Text for BERT
 2. Pre Training
