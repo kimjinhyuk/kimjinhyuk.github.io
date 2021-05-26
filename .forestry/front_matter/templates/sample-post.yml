@@ -1,0 +1,25 @@
+---
+label: sample post
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: excerpt
+  label: excerpt
+- type: list
+  name: categories
+  label: categories
+- type: boolean
+  name: use_math
+  label: use_math
+- type: boolean
+  name: comments
+  label: comments
+- type: list
+  name: tag
+  label: tag
