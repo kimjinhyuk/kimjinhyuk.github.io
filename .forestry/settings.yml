@@ -8,9 +8,6 @@ sections:
   label: Posts
   create: all
   new_doc_ext: md
-- type: jekyll-pages
-  label: Pages
-  create: all
 upload_dir: img
 public_path: "/img"
 front_matter_path: ''
